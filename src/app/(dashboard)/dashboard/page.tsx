@@ -12,7 +12,6 @@ import { useSocketStore } from "@/store/socketStore";
 import { trackingService } from "@/services/trackingService";
 import { buildMapMarkers } from "@/lib/map-markers";
 import { ONLINE_THRESHOLD_MS } from "@/lib/constants";
-import { apiBaseUrl } from "@/lib/env";
 
 export default function DashboardPage() {
   const items = useVehiclesStore((s) => s.items);
