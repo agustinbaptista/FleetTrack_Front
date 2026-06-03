@@ -30,3 +30,6 @@ export function middleware(request: NextRequest) {
 export const config = {
   matcher: ["/dashboard/:path*", "/vehicles/:path*", "/alerts/:path*", "/map/:path*", "/login", "/register"],
 };
+
+
+
