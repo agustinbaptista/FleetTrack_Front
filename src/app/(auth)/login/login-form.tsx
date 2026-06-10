@@ -69,7 +69,7 @@ export function LoginForm() {
             />
           </div>
           <Button type="submit" className="w-full" disabled={loading}>
-            {loading ? "Cargando server desde Render - Ingresando…" : "ar"}
+            {loading ? "Cargando server desde Render - Ingresando…" : "Ingresar"}
           </Button>
           <p className="text-center text-sm text-slate-500">
             ¿Sin cuenta?{" "}
