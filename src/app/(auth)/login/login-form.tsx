@@ -37,7 +37,6 @@ export function LoginForm() {
     <Card>
       <CardHeader>
         <CardTitle>Iniciar sesión</CardTitle>
-        <p className="text-sm text-slate-500">Conecta con tu API NestJS de tracking.</p>
       </CardHeader>
       <CardContent>
         <form className="space-y-4" onSubmit={onSubmit}>
@@ -70,7 +69,7 @@ export function LoginForm() {
             />
           </div>
           <Button type="submit" className="w-full" disabled={loading}>
-            {loading ? "Entrando…" : "Entrar"}
+            {loading ? "Cargando server desde Render - Ingresando…" : "ar"}
           </Button>
           <p className="text-center text-sm text-slate-500">
             ¿Sin cuenta?{" "}
